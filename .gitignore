@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno - NUNCA subir
+.env
+.env.local
+.env.production
+
+# Base de datos local
+prisma/dev.db
+prisma/dev.db-journal
+prisma/prisma/dev.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker
+.dockerignore
